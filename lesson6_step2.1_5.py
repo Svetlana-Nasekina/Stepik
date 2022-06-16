@@ -23,6 +23,6 @@ browser.find_element(By.XPATH, '/html/body/div/form/div[2]/label').click()
 browser.find_element(By.XPATH, '/html/body/div/form/div[4]/label').click()
 browser.find_element(By.XPATH, '/html/body/div/form/button').click()
 
-#time.sleep(10)
+time.sleep(10)
 # закрываем браузер после всех манипуляций
-#browser.quit()
+browser.quit()

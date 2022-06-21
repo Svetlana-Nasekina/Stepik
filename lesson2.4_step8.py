@@ -14,7 +14,7 @@ link = 'http://suninjuly.github.io/explicit_wait2.html'
 browser = webdriver.Chrome()
 browser.get(link)
 
-browser.text_to_be_present_in_element((By.ID, 'price'), '100')
+browser.text_to_be_present_in_element((By.ID, 'price'), '100') #jkhkjhgjdfhgj
 
 browser.find_element(By.XPATH, '//*[@id="book"]').click()
 

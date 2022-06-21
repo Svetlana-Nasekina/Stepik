@@ -1,6 +1,5 @@
 import math
 import time
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -16,7 +15,7 @@ browser.find_element(By.XPATH, '/html/body/form/div/div/button').click()
 confirm = browser.switch_to.alert   # в алерте соглашаемся
 confirm.accept()
 
-x_element = browser.find_element(By.XPATH, '/html/body/form/div/div/div/label/span[2]')
+x_element = browser.find_element(By.CSS_SELECTOR, '#input_value')
 x = x_element.text
 y = calc(x)
 
